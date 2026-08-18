@@ -9,3 +9,36 @@
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
 button { font: inherit; }
+:root {
+  --color-forest-950: #102d26;
+  --color-forest-900: #173d32;
+  --color-forest-800: #205546;
+  --color-forest-700: #2b6b58;
+  --color-teal-600: #23847b;
+  --color-teal-500: #31998c;
+  --color-lime-400: #b8d96d;
+  --color-paper: #f5f7f2;
+  --color-surface: #ffffff;
+  --color-surface-muted: #edf2ec;
+  --color-line: #dce5dc;
+  --color-text: #18241f;
+  --color-muted: #68746d;
+  --color-success: #2e8b63;
+  --color-error: #b4534b;
+  --shadow-sm: 0 4px 14px rgba(19, 50, 39, .06);
+  --shadow-md: 0 14px 34px rgba(19, 50, 39, .10);
+  --shadow-lg: 0 26px 70px rgba(19, 50, 39, .13);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+  --content-width: 1180px;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: var(--color-text);
+  background: var(--color-paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html { scroll-behavior: smooth; }
+body { background: var(--color-paper); }
